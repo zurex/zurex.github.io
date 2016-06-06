@@ -4,17 +4,27 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>多点糖</title>
+  <title>node-sass binding.node问题 | 多点糖</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="多点糖">
-<meta property="og:url" content="http://http://zurex.github.io/index.html">
+  <meta name="description" content="记录一次折腾的node-sass binding.node问题
+原因  公司是内外网隔离的，也就意味着内网无法使用npm，所以我就在外网装好需要的node package，拷贝node-modules文件夹到内网来使用
+  在这个过程中坑就出现了，node-sass这个package在安装的时候会根据你的不同的系统环境生成对应环境的binding.node文件。
+解决方法  一开始想的是找到一台服">
+<meta property="og:type" content="article">
+<meta property="og:title" content="node-sass binding.node问题">
+<meta property="og:url" content="http://http://zurex.github.io/2016/06/06/node-sass-binding-node问题/index.html">
 <meta property="og:site_name" content="多点糖">
-<meta property="og:description">
+<meta property="og:description" content="记录一次折腾的node-sass binding.node问题
+原因  公司是内外网隔离的，也就意味着内网无法使用npm，所以我就在外网装好需要的node package，拷贝node-modules文件夹到内网来使用
+  在这个过程中坑就出现了，node-sass这个package在安装的时候会根据你的不同的系统环境生成对应环境的binding.node文件。
+解决方法  一开始想的是找到一台服">
+<meta property="og:updated_time" content="2016-06-06T15:50:23.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="多点糖">
-<meta name="twitter:description">
+<meta name="twitter:title" content="node-sass binding.node问题">
+<meta name="twitter:description" content="记录一次折腾的node-sass binding.node问题
+原因  公司是内外网隔离的，也就意味着内网无法使用npm，所以我就在外网装好需要的node package，拷贝node-modules文件夹到内网来使用
+  在这个过程中坑就出现了，node-sass这个package在安装的时候会根据你的不同的系统环境生成对应环境的binding.node文件。
+解决方法  一开始想的是找到一台服">
   
     <link rel="alternative" href="/atom.xml" title="多点糖" type="application/atom+xml">
   
@@ -157,9 +167,7 @@
 	</div>
 </nav>
 
-      <div class="body-wrap">
-  
-    <article id="post-node-sass-binding-node问题" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-node-sass-binding-node问题" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2016/06/06/node-sass-binding-node问题/" class="article-date">
@@ -175,12 +183,28 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/06/node-sass-binding-node问题/">node-sass binding.node问题</a>
+    <h1 class="article-title" itemprop="name">
+      node-sass binding.node问题
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/npm/">npm</a></li></ul>
+	</div>
+
+        
+
+        <div style="width:100%;float:left;">
+            <span id="busuanzi_container_page_pv">
+                被阅读<span id="busuanzi_value_page_uv"></span>次
+            </span>
+        </div>
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -193,123 +217,68 @@
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/npm/">npm</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/06/05/hexo-github搭建博客/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">hexo+github搭建博客</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
   
 </article>
 
 
-
-
-
-
-
-
-
-  
-    <article id="post-hexo-github搭建博客" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/05/hexo-github搭建博客/" class="article-date">
-  	<time datetime="2016-06-04T16:43:51.000Z" itemprop="datePublished">2016-06-05</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/05/hexo-github搭建博客/">hexo+github搭建博客</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>之前搭建博客的时候各种折腾，经过各种安利，还是吃下了hexo＋github这个组合</p>
-<h2 id="主要环境"><a href="#主要环境" class="headerlink" title="主要环境"></a>主要环境</h2><ol>
-<li>node</li>
-<li>git</li>
-<li>github account</li>
-</ol>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ol>
-<li><p>安装hexo</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install-g hexo</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>创建一个博客文件夹，我直接就是github repo名字</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir zurex.github.io</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>初始化目录</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> zurex.github.io</span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>配置git</p>
-<p>主要就是修改<code>_config.yml</code>当中的配置信息，在这个文件最后面修改，如下：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:  </span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo:https://github.com/zurex/zurex.github.io.git</span><br><span class="line">  branch:master</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装hexo－git工具</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>发布</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><ul>
-<li>新建文章 <code>hexo new &quot;postname&quot;</code></li>
-<li>新建页面 <code>hexo new page &quot;pageName&quot;</code></li>
-<li>生成静态页面  <code>hexo generate</code></li>
-<li>本地服务器 <code>hexo server</code></li>
-</ul>
-<h2 id="坑"><a href="#坑" class="headerlink" title="坑"></a>坑</h2><p>我的笔记本是mbp，用的github desktop for mac，一旦到<code>hexo init</code>之后，git client就看不见所有的更改，显示repo内容为空，目前还不知道该怎么解决</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">Share to: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
 	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
 
 
 
 
 
 
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="node-sass-binding-node问题" data-title="node-sass binding.node问题" data-url="http://http://zurex.github.io/2016/06/06/node-sass-binding-node问题/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"zurex"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
 
 
 
-  
-  
+
 </div>
       <footer id="footer">
   <div class="outer">
@@ -336,8 +305,8 @@
 		fancybox: true,
 		mathjax: true,
 		animate: true,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
