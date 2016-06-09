@@ -98,7 +98,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/npm/" style="font-size: 10px;">npm</a>
+						<a href="/tags/docker/" style="font-size: 10px;">docker</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/npm/" style="font-size: 10px;">npm</a>
 					</div>
 				</section>
 				
@@ -158,6 +158,71 @@
 </nav>
 
       <div class="body-wrap">
+  
+    <article id="post-docker常用命令" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/09/docker常用命令/" class="article-date">
+  	<time datetime="2016-06-09T03:41:10.000Z" itemprop="datePublished">2016-06-09</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/06/09/docker常用命令/">docker常用命令</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>docker真是运维利器，什么都不多说了，试试你就知道。</p>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><ul>
+<li><p>docker images 列出所有本地的镜像</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ docker images</span><br><span class="line">REPOSITORY           TAG                 IMAGE ID            CREATED             SIZE</span><br><span class="line">docker-whale         latest              a74225c7f34f        15 hours ago        252.8 MB</span><br><span class="line">zurex/docker-start   latest              a74225c7f34f        15 hours ago        252.8 MB</span><br><span class="line">hello-world          latest              94df4f0ce8a4        6 weeks ago         967 B</span><br><span class="line">docker/whalesay      latest              6b362a9f73eb        12 months ago       247 MB</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>docker rmi 删除指定的镜像<br>-f 可以使用id或者tag</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ docker rmi <span class="_">-f</span> a74225c7f34f</span><br><span class="line">$ docker rmi <span class="_">-f</span> docker-whale</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/docker/">docker</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
   
     <article id="post-node-sass-binding-node问题" class="article article-type-post" itemscope itemprop="blogPost">
   
